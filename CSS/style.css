@@ -79,8 +79,10 @@ Banner Area
     width: 10px;
 }
 
-.banner_text>button>p {
+.banner_text>button>a {
     margin-right: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .banner_image {
@@ -126,6 +128,14 @@ All Matches Area
     font-size: 700;
 }
 
+.matches_area_buttons>button>a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+}
+
 .matches_area_buttons>button:hover {
     color: #FFFFFF;
     background: #DD0000;
@@ -137,6 +147,11 @@ All Matches Area
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     justify-content: space-between;
+}
+
+.match {
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 15px 15px 2px 2px;
 }
 
 .match>img {
@@ -153,6 +168,10 @@ All Matches Area
     padding: 10px;
 }
 
+.match_text h3 {
+    margin: 15px 0px;
+}
+
 .time_message {
     display: flex;
     align-items: center;
@@ -162,6 +181,7 @@ All Matches Area
 .time_message p {
     color: #5c5a5a;
     margin-left: 20px;
+
 }
 
 .time,
