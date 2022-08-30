@@ -229,3 +229,25 @@ Footer Area
     text-decoration: none;
     color: #FFFFFF;
 }
+
+/*================
+indexPage
+================== */
+.group_match {
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.group_flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+}
+.group_text>p{
+    color: #5c5a5a;
+}
